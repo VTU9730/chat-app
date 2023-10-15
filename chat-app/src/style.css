@@ -1,0 +1,63 @@
+p{
+    margin: 0;
+}
+#header{
+    background-color: rgba(76, 207, 36, 0.925);
+    color: white;
+}
+#header2{
+    background-color: rgba(76, 207, 36, 0.925);
+    color: white;
+}
+#join-form{
+    margin: auto;
+    width:200px;
+    height:200px;
+    border:solid 1px grey;
+    text-align: center;
+}
+#chat-box{
+    position: relative;
+    height:500px;
+    width:300px;
+    border: solid 1px grey;
+    margin: auto;
+}
+.chat-boxx{
+    position: relative;
+    height:350px;
+    width:250px;
+    margin: auto;
+}
+#chat-footer{
+    position: absolute;
+    left:20%;
+    bottom:10px;
+}
+.you,.you1{
+    display: flex;
+    justify-content: flex-end;
+}
+.you>p{
+    background-color: rgb(140, 235, 111);
+    padding: 5px;
+    margin: 2px;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+}
+.other,.other1{
+    display:flex;
+    justify-content: flex-start;
+}
+.other>p{
+    background-color: rgb(217, 160, 240);
+    padding: 5px;
+    margin: 2px;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius:10px ;
+    
+}
+input{
+    width:150px;
+    margin: 0 10px 0;
+}
